@@ -1,4 +1,3 @@
-// module.exports = Post;
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
@@ -18,9 +17,9 @@ Post.init(
       type: DataTypes.STRING,
       allowNull: false,
     },
-    content: {
+    post_content: {
       type: DataTypes.TEXT,
-      allowNull: false,
+      allowNull: true,
     },
     user_id: {
       type: DataTypes.INTEGER,

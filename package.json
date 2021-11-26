@@ -1,7 +1,7 @@
 {
-  "name": "Tech_Blog",
+  "name": "HaulSmart Tech_Blog",
   "version": "1.0.0",
-  "description": "Tech Blog",
+  "description": "HaulSmart Tech Blog",
   "main": "server.js",
   "scripts": {
     "test": "jest",
