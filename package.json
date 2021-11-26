@@ -9,15 +9,8 @@
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:jonmorg-hs/Tech_Blog.git"
-  },
   "author": "Jon Morgan",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jonmorg-hs/Tech_Blog/issues"
-  },
   "homepage": "https://github.com/jonmorg-hs/Tech_Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
