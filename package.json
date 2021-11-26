@@ -5,7 +5,6 @@
   "main": "server.js",
   "scripts": {
     "test": "jest",
-    "build": "webpack",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
@@ -22,8 +21,7 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.4",
-    "sequelize": "^5.21.13",
-    "webpack": "^5.64.4"
+    "sequelize": "^5.21.13"
   },
   "devDependencies": {
     "jest": "^26.0.1"
