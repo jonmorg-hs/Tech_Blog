@@ -28,10 +28,9 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.4",
-    "sequelize": "^6.11.0",
-    "serve": "^13.0.2"
+    "sequelize": "^5.21.13"
   },
   "devDependencies": {
-    "jest": "^26.4.2"
+    "jest": "^26.0.1"
   }
 }
