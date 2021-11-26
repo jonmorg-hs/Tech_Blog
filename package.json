@@ -4,9 +4,6 @@
   "description": "HaulSmart Tech Blog",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
-    "heroku-prebuild": "npm install -f",
-    "heroku-postbuild": "npm run prod",
     "start": "node server.js",
     "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
@@ -22,6 +19,7 @@
   },
   "homepage": "https://github.com/jonmorg-hs/Tech_Blog#readme",
   "dependencies": {
+    "jest": "^26.4.2",
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^6.1.1",
     "dotenv": "^8.2.0",
@@ -32,8 +30,5 @@
     "nodemon": "^2.0.4",
     "sequelize": "^6.11.0",
     "serve": "^13.0.2"
-  },
-  "devDependencies": {
-    "jest": "^26.4.2"
   }
 }
