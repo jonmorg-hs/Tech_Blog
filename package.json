@@ -1,5 +1,5 @@
 {
-  "name": "HaulSmart_Tech_Blog",
+  "name": "TechBlog",
   "version": "1.0.0",
   "description": "HaulSmart Tech Blog",
   "main": "server.js",
@@ -28,7 +28,7 @@
     "express-session": "^1.17.1",
     "mysql2": "^2.1.0",
     "nodemon": "^2.0.4",
-    "sequelize": "^7.0.0",
+    "sequelize": "^6.11.0",
     "serve": "^13.0.2"
   },
   "devDependencies": {
