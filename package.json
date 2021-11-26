@@ -1,18 +1,24 @@
 {
-  "name": "TechBlog",
+  "name": "HaulSmart_Tech_Blog",
   "version": "1.0.0",
-  "description": "TechBlog",
+  "description": "HaulSmart Tech Blog",
   "main": "server.js",
   "scripts": {
+    "test": "jest",
     "start": "node server.js",
+    "watch": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
-  "engine": {
-    "node": "^14.18.0",
-    "npm": "^6.14.15"
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jonmorg-hs/Tech_Blog.git"
   },
   "author": "Jon Morgan",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jonmorg-hs/Tech_Blog/issues"
+  },
+  "homepage": "https://github.com/jonmorg-hs/Tech_Blog#readme",
   "dependencies": {
     "bcrypt": "^5.0.0",
     "connect-session-sequelize": "^6.1.1",
@@ -21,6 +27,11 @@
     "express-handlebars": "^4.0.4",
     "express-session": "^1.17.1",
     "mysql2": "^2.1.0",
-    "sequelize": "^6.11.0"
+    "nodemon": "^2.0.4",
+    "sequelize": "^6.11.0",
+    "serve": "^13.0.2"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
   }
 }
