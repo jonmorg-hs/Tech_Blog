@@ -15,6 +15,8 @@
 
 # Screenshots
 
+<img src="public/images/tech_blog_screenshot.png" />
+
 # License
 
 MIT
