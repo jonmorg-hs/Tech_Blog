@@ -11,9 +11,7 @@
 <meta name="apple-mobile-web-app-title" content="HaulSmart Blog">
 <link rel="apple-touch-icon" href="images/icon.png">
   <title>HAULSMART BLOG</title>
-  <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css">-->
   <link rel="stylesheet" href="/css/style.css">
-  <!--<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>-->
 </head>
 
   <div class="wrapper">
@@ -27,7 +25,7 @@
             <a href="/dashboard/create/" class="navbar-item">New Post</a>
             <button id="logout" class="button">Logout</button>
             {{else}}
-            <a href="/login" class="button">Login</a>
+            <a href="/login"><button id="login" class="button">Login</button></a>
             {{/if}}
         </nav>
     </header>
@@ -36,8 +34,8 @@
             {{{ body }}}
     </main>
 
-    <footer class="footer rows pb-2">
-        <div class="row-is-full content has-text-centered">
+    <footer class="footer rows">
+        <div>
             <p>
             <a href="/">Home</a>{{#if loggedIn}} | 
             <a href="/dashboard/">My Posts</a> | 
@@ -47,9 +45,6 @@
             {{/if}}
             </p>
         </div>
-      <div class="row-is-full content has-text-centered">
-
-  </div>
     </footer>
   </div>
 
