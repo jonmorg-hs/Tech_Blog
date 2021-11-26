@@ -4,9 +4,9 @@
   "description": "HaulSmart Tech Blog",
   "main": "server.js",
   "scripts": {
-    "test": "jest",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "watch": "nodemon server.js",
+    "dev": "nodemon server.js",
     "seed": "node seeds/index.js"
   },
   "author": "Jon Morgan",
