@@ -27,3 +27,8 @@ async function newFormHandler(event) {
 document
   .querySelector(".new-post-form")
   .addEventListener("submit", newFormHandler);
+
+document.querySelector(".cancel-post").addEventListener("click", function () {
+  window.location.href = "/dashboard";
+  return false;
+});

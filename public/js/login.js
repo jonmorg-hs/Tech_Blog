@@ -17,7 +17,10 @@ async function loginFormHandler(event) {
     if (response.ok) {
       document.location.replace("/dashboard");
     } else {
-      alert(response.statusText);
+      alert(
+        "Login credentials do not exist, please sign up or check your username or password"
+      );
+      //alert(response.statusText);
     }
   }
 }

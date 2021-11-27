@@ -32,3 +32,8 @@ async function commentFormHandler(event) {
 document
   .querySelector(".comment-form")
   .addEventListener("submit", commentFormHandler);
+
+document.querySelector(".cancel-form").addEventListener("click", function () {
+  window.location.href = "/dashboard";
+  return false;
+});

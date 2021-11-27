@@ -30,3 +30,8 @@ async function editFormHandler(event) {
 document
   .querySelector(".edit-post-form")
   .addEventListener("submit", editFormHandler);
+
+document.querySelector(".cancel-edit").addEventListener("click", function () {
+  window.location.href = "/dashboard";
+  return false;
+});
