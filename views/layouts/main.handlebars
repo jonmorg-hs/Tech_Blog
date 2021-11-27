@@ -14,14 +14,16 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
   <div class="wrapper">
-    <header>
-        <div style="position:relative;width:250px"><a href="/" class="navbar-item"><img src="/images/logo.png" style="width:250px"></a></div>
+    <header style="height:100px">
+        <div style="position:relative;width:15%;min-width:125px;max-width:250px"><a href="/" class="navbar-item"><img id="logo" src="/images/logo.png" style="width:100%"></a></div>
         <h1 style="margin-left:10px">Tech Blog</h1>
         <nav class="navbar">
             {{#if loggedIn}}
+            <div> 
             <a href="/dashboard" class="navbar-item">My Posts</a>
             <a href="/dashboard/create/" class="navbar-item">New Post</a>
             <button id="logout" class="button">Logout</button>
+            </div>
             {{else}}
             <a href="/login"><button id="login" class="button">Login</button></a>
             {{/if}}
